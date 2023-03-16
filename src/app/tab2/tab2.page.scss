@@ -1,25 +1,54 @@
 h1{
-  color: rgb(0, 5, 4);
+  color: rgb(114, 0, 245);
   font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 
-
 .teste1{
-  margin-bottom: 20%;
-  margin-left: 10%;
+display: flex;
+justify-content: center;
 }
 
 
 h2{
-  color: rgb(0, 5, 4);
+  color:rgb(114, 0, 245) ;
   font-family:'Times New Roman', Times, serif;
   text-align:left;
   margin-left: 5%;
 
 }
 
-.teste2{
-  margin-bottom: 100%;
-  margin-left: 5%;
+h3{
+  color: rgb(114, 0, 245);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
 }
+
+.center-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ion-button{
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+
+  .a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+ion-label{
+  font-size: 19px;
+  color:rgb(167, 19, 252);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+

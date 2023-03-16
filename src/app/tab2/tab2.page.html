@@ -1,14 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-    </ion-title>
+    <ion-title> </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <h1>
-    Valendo: 1
-  </h1>
+<ion-content [fullscreen]="true" >
+  <h1>Valendo: 1</h1>
+
   <div class="teste1">
     <ion-button color="dark" shape="round">1</ion-button>
     <ion-button color="dark" shape="round">3</ion-button>
@@ -17,16 +15,43 @@
     <ion-button color="dark" shape="round">12</ion-button>
   </div>
 
-<h2>
-  Time 1
-</h2>
-<div class="teste2">
-  <ion-button  color="dark" shape="round">+</ion-button>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="center-time">
+        <h2>Time 1</h2>
+        <ion-button color="dark" shape="round">+</ion-button>
+        <h2>0</h2>
+        <ion-button color="dark" shape="round">-</ion-button>
+      </ion-col>
 
-<h2>
-  0
-</h2>
-  <ion-button  color="dark" shape="round">-</ion-button>
-</div>
+      <ion-col class="center-time">
+        <h2>Time 2</h2>
+        <ion-button color="dark" shape="round">+</ion-button>
+        <h2>0</h2>
+        <ion-button color="dark" shape="round">-</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
+  <ion-card>
+
+<ion-title>
+  <h3>
+    Partidas:
+  </h3>
+</ion-title>
+
+
+<ion-row>
+  <ion-col><ion-label>Time 2:</ion-label></ion-col>
+  <ion-col><ion-label>0</ion-label></ion-col>
+</ion-row>
+
+    <ion-row>
+      <ion-col><ion-label>Time 1:</ion-label></ion-col>
+      <ion-col><ion-label>0</ion-label></ion-col>
+    </ion-row>
+
+    <ion-button color="dark" expand="block">Limpar</ion-button>
+  </ion-card>
 </ion-content>
