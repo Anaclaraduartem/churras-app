@@ -8,38 +8,38 @@
   <h1>Valendo: {{valendo}}</h1>
 
   <div class="teste1">
-    <ion-button color="dark" shape="round" (click)="mudarValor(1)">1</ion-button>
-    <ion-button color="dark" shape="round" (click)="mudarValor(3)">3</ion-button>
-    <ion-button color="dark" shape="round" (click)="mudarValor(6)">6</ion-button>
-    <ion-button color="dark" shape="round" (click)="mudarValor(9)">9</ion-button>
-    <ion-button color="dark" shape="round" (click)="mudarValor(12)">12</ion-button>
+    <ion-button color="Light" shape="round" (click)="mudarValor(1)">1</ion-button>
+    <ion-button color="Light" shape="round" (click)="mudarValor(3)">3</ion-button>
+    <ion-button color="Light" shape="round" (click)="mudarValor(6)">6</ion-button>
+    <ion-button color="Light" shape="round" (click)="mudarValor(9)">9</ion-button>
+    <ion-button color="Light" shape="round" (click)="mudarValor(12)">12</ion-button>
   </div>
 
   <ion-grid>
     <ion-row>
       <ion-col class="center-time">
         <h2>Time 1</h2>
-        <ion-button color="dark" shape="round"(click)="addponto1()">+</ion-button>
+        <ion-button color="Light" shape="round"(click)="addponto1()">+</ion-button>
         <h2>{{time1}}</h2>
-        <ion-button color="dark" shape="round"(click)="subponto1()">-</ion-button>
+        <ion-button color="Light" shape="round"(click)="subponto1()">-</ion-button>
       </ion-col>
 
       <ion-col class="center-time">
         <h2>Time 2</h2>
-        <ion-button color="dark" shape="round"(click)="addponto2()">+</ion-button>
+        <ion-button color="Light" shape="round"(click)="addponto2()">+</ion-button>
         <h2>{{time2}}</h2>
-        <ion-button color="dark" shape="round" (click)="subponto2()">-</ion-button>
+        <ion-button color="Light" shape="round" (click)="subponto2()">-</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
 
   <ion-card>
 
-<ion-title>
-  <h3>
+<ion-card-title>
+
     Partidas:
-  </h3>
-</ion-title>
+
+</ion-card-title>
 
 
 <ion-row>
@@ -52,6 +52,6 @@
       <ion-col><ion-label>{{final2}}</ion-label></ion-col>
     </ion-row>
 
-    <ion-button color="dark" expand="block" (click)="limpar()">Limpar</ion-button>
+    <ion-button class="diminuir" color="Light" (click)="limpar()">Limpar</ion-button>
   </ion-card>
 </ion-content>

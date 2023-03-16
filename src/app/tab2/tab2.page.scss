@@ -18,7 +18,8 @@ h2{
 
 }
 
-h3{
+ion-card-title{
+  border-top: 20%;
   color: rgb(114, 0, 245);
   font-family:'Times New Roman', Times, serif;
   font-size: 25px;
@@ -46,9 +47,23 @@ h3{
 
 ion-label{
   font-size: 19px;
-  color:rgb(167, 19, 252);
+  color:rgb(114, 0, 245);
   font-family: 'Times New Roman', Times, serif;
 }
 
+ion-button{
+  color:rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 16px;
+}
 
 
+.diminuir{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
