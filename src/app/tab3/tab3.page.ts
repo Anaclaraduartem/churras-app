@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
+
+  tamanho = 0;
+  dadoParado ='assets/Dado.webp';
+  dadoGif ='assest/Gifs animados Dado8.gif';
+  Valordodado = 0;
   constructor() {}
 
 }
